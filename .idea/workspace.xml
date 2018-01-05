@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96c98bd9-1ef3-4acb-9bfa-46ac6544288f" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/default.js" />
-    </list>
+    <list default="true" id="96c98bd9-1ef3-4acb-9bfa-46ac6544288f" name="默认的" comment="" />
     <ignored path="student.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
