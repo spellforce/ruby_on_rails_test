@@ -1,0 +1,19 @@
+<h1>学生们</h1>
+<table border="1">
+ <thead>
+    <tr>
+      <th>学号</th>
+      <th>姓名</th>
+      <th>选择课程</th>
+    </tr>
+  </thead>
+<tbody>
+<% @students.each do |student| %>
+    <tr>
+      <td><%= student.sno %></td>
+      <td><%= student.sname %></td>
+      <td><% student.courses.each do |course| %> <%= course.cname %> |  <% end %> <a href="/curd/add_course?sid=<%= student.id %>"> 去添加</a></td>
+    </tr>
+  <% end %>
+</tbody>
+</table>

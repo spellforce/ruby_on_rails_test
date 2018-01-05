@@ -1,0 +1,17 @@
+<%= form_with scope: :course, local: true do |form| %>
+  <p>
+    <%= form.label :选择添加课程 %><br>
+  </p>
+    <input type="hidden" name="sid" value="<%= @sid %>"/>
+  <p>
+    <select name="course_id">
+    <% @courses.each do |course| %>
+      <option value ="<%= course.id%>"><%= course.cname%></option>
+      <% end %>
+    </select>
+  </p>
+
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
